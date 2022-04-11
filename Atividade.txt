@@ -1,0 +1,41 @@
+Atividade
+
+Criar duas classes,
+ex: Pessoa e Conta
+
+array: [Object]
+
+APIs
+
+Invocar o metodo do objeto informado
+
+{index}/method
+{
+    class: string,
+    method: string,
+    parameters: []
+}
+
+Alterar o atributo do objeto
+
+{index}/fields
+{
+    class: string,
+    filed: string,
+    value: object
+}
+
+Criar um objeto
+
+/create
+{
+    class: string
+}
+
+Listar as informações da classe
+
+/listInfo
+{
+    class: string
+}
+
