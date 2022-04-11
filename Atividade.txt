@@ -9,7 +9,7 @@ APIs
 
 Invocar o metodo do objeto informado
 
-{index}/method
+[POST] {index}/method
 {
     class: string,
     method: string,
@@ -18,14 +18,14 @@ Invocar o metodo do objeto informado
 
 Alterar o atributo do objeto
 
-{index}/fields
+[POST] {index}/fields
 {
     class: string,
     filed: string,
     value: object
 }
 
-Criar um objeto
+[POST] Criar um objeto
 
 /create
 {
@@ -34,7 +34,7 @@ Criar um objeto
 
 Listar as informações da classe
 
-/listInfo
+[GET] /listInfo
 {
     class: string
 }
